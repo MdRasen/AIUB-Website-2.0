@@ -9,3 +9,159 @@
 .html {
     scroll-behavior: smooth;
 }
+
+/* Header Section */
+.top-bar-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: #fff;
+}
+
+.top-bar-1 .title img {
+    width: 420px;
+}
+
+.top-bar-1 .top-bar-1-menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar-1 .top-bar-1-menu ul li {
+    padding: 0 10px;
+}
+
+.top-bar-1 .top-bar-1-menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #007BFF;
+}
+
+.top-bar-1 .top-bar-1-menu ul li a .fa-magnifying-glass {
+    border: 1px solid #007BFF;
+    padding: 5px;
+}
+
+.top-bar-2 {
+    background: #004EA2;
+}
+
+.top-bar-2 ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar-2 ul li {
+    padding: 0 30px;
+}
+
+.top-bar-2 ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.top-bar-2 ul li a img {
+    width: 65px;
+}
+
+.body-top {
+    background: #f0f0f0;
+    padding: 5px 20px;
+}
+
+.body-top ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-top ul li {
+    padding: 0 80px;
+}
+
+.body-top ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0074FA;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+}
+
+.swiper-slide .title-text {
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    cursor: pointer;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: #fff;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+    font-size: 25px;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 40px !important;
+}
+
+.upper-content {
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+    top: 10%;
+    color: #fff;
+}
+
+.upper-content h1 {
+    font-size: 60px;
+    letter-spacing: 6px;
+    padding-bottom: 15px;
+}
+
+.upper-content a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 3px;
+    background: rgba(6, 6, 6, 0.2);
+    transition: color 0.5s, background 0.5s;
+}
+
+.upper-content a:hover {
+    color: #000;
+    background: #fff;
+}

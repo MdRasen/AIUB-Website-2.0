@@ -14,10 +14,162 @@
     <link rel="shortcut icon" href="assets/aiub-logo.svg" type="image/x-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Swiper JS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
+    <!-- Header section -->
+    <section id="header">
+        <div class="top">
+            <div class="top-bar-1">
+                <div class="title">
+                    <img src="assets/BANNER-HEADING.png" alt="BANNER-HEADING">
+                </div>
+                <div class="top-bar-1-menu">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-user"></i> Login</a></li>
+                        <li><a href="#"><i class="fa-sharp fa-solid fa-envelope"></i> Web Mail</a></li>
+                        <li><a href="#"><i class="fa-solid fa-address-book"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-bar-2">
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">ACADEMICS</a></li>
+                    <li><a href="#">ADMISSION</a></li>
+                    <li><a href="#"><img src="assets/aiub-logo.svg" alt="aiub-logo"></a></li>
+                    <li><a href="#">ON CAMPUS</a></li>
+                    <li><a href="#">ADMINISTRATION</a></li>
+                    <li><a href="#">RESEARCH</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-top">
+                <ul>
+                    <li><a href="#">Alumni</a></li>
+                    <li><a href="#">Visitors</a></li>
+                    <li><a href="#">Future Students</a></li>
+                    <li><a href="#">Convocation</a></li>
+                </ul>
+            </div>
+            <div class="hero">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-1.jpg" alt="banner-1">
+                            <div class="title-text">
+                                <h3>Amphitheatre</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-2.jpg" alt="banner-2">
+                            <div class="title-text">
+                                <h3>Aerial View of AIUB Campus</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-3.jpg" alt="banner-3">
+                            <div class="title-text">
+                                <h3>Passage Between Annex - 2 & Annex - 3</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-4.jpg" alt="banner-4">
+                            <div class="title-text">
+                                <h3>Center Garden</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-5.jpg" alt="banner-5">
+                            <div class="title-text">
+                                <h3>Gym</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-6.jpg" alt="banner-6">
+                            <div class="title-text">
+                                <h3>Night View Of C Building Front Side</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-7.jpg" alt="banner-7">
+                            <div class="title-text">
+                                <h3>Playground, Gallery & Building - D</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-8.jpg" alt="banner-8">
+                            <div class="title-text">
+                                <h3>Playground & Gallery</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-9.jpg" alt="banner-9">
+                            <div class="title-text">
+                                <h3>Green Campus</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/banners/banner-10.jpg" alt="banner-10">
+                            <div class="title-text">
+                                <h3>Entrance of Sports Gallery</h3>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="upper-content">
+                        <h1>AIUB</h1>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Apply</a>
+                    </div>
+
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Swiper JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            // For autoplay feature
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 
 </html>
