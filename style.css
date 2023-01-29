@@ -241,7 +241,7 @@
 }
 
 .social-media .social-icons {
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: end;
 }
 
@@ -261,5 +261,6 @@
 }
 
 .courses .swiper .swiper-wrapper {
-    width: 250px;
+    width: 300px;
+    height: fit-content;
 }
