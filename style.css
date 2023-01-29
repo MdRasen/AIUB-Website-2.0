@@ -170,7 +170,7 @@
 #container {
     width: 100%;
     background: url(assets/cubes.png);
-    padding: 15px 12%;
+    padding: 15px 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -262,5 +262,4 @@
 
 .courses .swiper .swiper-wrapper {
     width: 250px;
-    /* height: auto; */
 }
