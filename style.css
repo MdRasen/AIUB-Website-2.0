@@ -165,3 +165,102 @@
     color: #000;
     background: #fff;
 }
+
+/* Container Section */
+#container {
+    width: 100%;
+    background: url(assets/cubes.png);
+    padding: 15px 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#container .left,
+#container .right {
+    flex-basis: 49%;
+}
+
+#container h2 {
+    font-size: 18px;
+    color: #2196F3;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background: #2196F3;
+    margin: 6px 0;
+}
+
+.notice-headings a {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    padding: 6px;
+    margin: 5px 0;
+    border-radius: 4px;
+    color: #0072BC;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 10px 20px 3px #00968814;
+}
+
+.notice-headings a:hover {
+    box-shadow: 0 5px 20px 3px #2e2d2d4f;
+}
+
+.notice-headings a span {
+    display: inline-block;
+    background: #007BFF;
+    width: 40px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 8px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 10px 20px 3px #00968814;
+}
+
+.notices .archive {
+    display: block;
+    text-align: end;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0072BC;
+    margin-right: 10px;
+}
+
+.social-media iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.social-media .social-icons {
+    padding: 10px 0;
+    text-align: end;
+}
+
+.social-media .social-icons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0074FA;
+    background: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 2px;
+}
+
+.social-media .social-icons a:hover {
+    color: red;
+    box-shadow: 0 10px 20px 3px #00968814;
+}
+
+.courses .swiper .swiper-wrapper {
+    width: 250px;
+    /* height: auto; */
+}
