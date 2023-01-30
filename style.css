@@ -182,12 +182,12 @@
     flex-basis: 49%;
 }
 
-#container h2 {
+.head-title h2 {
     font-size: 18px;
     color: #2196F3;
 }
 
-.line {
+.head-title .line {
     width: 100px;
     height: 3px;
     background: #2196F3;
@@ -231,7 +231,7 @@
     display: block;
     text-align: end;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     color: #0072BC;
     margin-right: 10px;
 }
@@ -327,4 +327,32 @@
     font-size: 14px;
     color: #0072BC;
     padding: 10px 0;
+}
+
+/* Facts and Figures */
+#facts-figures {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(assets/cover-facts-figure.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #004EA2;
+    padding: 20px 8%;
+}
+
+#facts-figures .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#facts-figures .row .fact h2 {
+    font-size: 80px;
+    padding: 10px 0;
+}
+
+#facts-figures .row .fact p {
+    font-size: 16px;
+    font-weight: 600;
 }
