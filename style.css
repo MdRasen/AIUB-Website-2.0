@@ -464,3 +464,25 @@
 .faculties-content .faculty:hover .top-content {
     left: -300px;
 }
+
+/* Partners section */
+#partners {
+    padding: 40px 8%;
+}
+
+#partners .swiper-slide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#partners .swiper-slide img{
+    width: 100px;
+}
+
+#partners .swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+    font-weight: 900;
+    color: #000;
+}
