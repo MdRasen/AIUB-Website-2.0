@@ -227,7 +227,8 @@
 }
 
 .notices .archive,
-#news-events .archive {
+#news-events .archive,
+#partners .see-all {
     display: block;
     text-align: end;
     text-decoration: none;
@@ -336,7 +337,7 @@
     background-position: center;
     background-attachment: fixed;
     color: #004EA2;
-    padding: 20px 8%;
+    padding: 20px 8% 30px;
 }
 
 #facts-figures .row {
@@ -470,14 +471,14 @@
     padding: 40px 8%;
 }
 
-#partners .swiper-slide{
+#partners .swiper-slide {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
 }
 
-#partners .swiper-slide img{
+#partners .swiper-slide img {
     width: 100px;
 }
 
@@ -485,4 +486,97 @@
 .swiper .swiper-button-next::after {
     font-weight: 900;
     color: #000;
+}
+
+/* Footer section */
+.footer-top {
+    background: #181818;
+    padding: 30px 8%;
+    color: #ababab;
+}
+
+.footer-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-contents .col {
+    flex-basis: 24%;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-contents .col img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0 10px 5px;
+}
+
+.footer-contents .col h6 {
+    font-size: 14px;
+}
+
+.footer-contents .col p {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.footer-contents .col .head-title h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer-contents .col ul li {
+    list-style: none;
+    padding: 3px 0;
+}
+
+.footer-contents .col ul li a {
+    text-decoration: none;
+    color: #ababab;
+    font-size: 14px;
+}
+
+.footer-contents .col ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer-bottom {
+    background: #101010;
+    padding: 20px 8% 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #ababab;
+}
+
+.footer-bottom .left p {
+    font-size: 12px;
+}
+
+.footer-bottom .left p a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.footer-bottom .left p a:hover {
+    color: #004EA2;
+    text-decoration: underline;
+}
+
+.footer-bottom .right .social-icons a {
+    font-size: 18px;
+    padding: 0 3px;
+    color: #fff;
+}
+
+.footer-bottom .right .social-icons a:hover {
+    color: #004EA2;
 }
