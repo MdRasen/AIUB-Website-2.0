@@ -21,6 +21,8 @@
 <body>
     <!-- Header section -->
     <section id="header">
+
+        <!-- For Full Screen Device Starts -->
         <div class="top">
             <div class="top-bar-1">
                 <div class="title">
@@ -47,6 +49,45 @@
                 </ul>
             </div>
         </div>
+        <!-- For Full Screen Device Ends -->
+
+        <!-- For Small Screen Device Starts -->
+        <div class="small-top">
+            <div class="left">
+                <img src="assets/aiub-logo.svg" alt="aiub-logo">
+                <div class="title">
+                    <h1>AMERICAN<br>INTERNATIONAL<br>UNIVERSITY -<br>BANGLADESH</h1>
+                    <p>where leaders are created</p>
+                </div>
+
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-bars" onclick="myFunction()"></i>
+            </div>
+        </div>
+
+        <!-- For Mobile Sub-Menu -->
+        <div class="mobile mobile-menu" id="mobile-menu">
+            <div class="small-menu-top">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-user"></i> Login</a></li>
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-envelope"></i> Mail</a></li>
+                    <li><a href="#"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="small-menu-bottom">
+                <ul>
+                    <li><a href="#">About <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="#">Academics <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="#">Admission</a></li>
+                    <li><a href="#">On Campus</a></li>
+                    <li><a href="#">Administration <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="#">Research <i class="fa-solid fa-caret-down"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- For Small Screen Device Ends -->
+
         <div class="body">
             <div class="body-top">
                 <ul>
@@ -305,6 +346,7 @@
         <a href="#" class="archive"><i class="fa-solid fa-box-archive"></i> Archive</a>
     </section>
 
+    <!-- Facts & Figures section -->
     <section id="facts-figures">
         <div class="head-title">
             <h2>Facts & Figures</h2>
@@ -512,6 +554,21 @@
                 prevEl: '.swiper-button-prev',
             },
         });
+    </script>
+
+    <!-- For Mobile Menu -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mobile-menu");
+            if (x.className === "mobile") {
+                x.className += "responsive, mobile-menu";
+                x.style.display = "block";
+
+            } else {
+                x.className = "mobile";
+                x.style.display = "none";
+            }
+        }
     </script>
 </body>
 
